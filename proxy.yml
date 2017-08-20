@@ -2,8 +2,8 @@ spring:
   application:
     name: proxy
 server:
-  port: 8040
-  contextPath: /caed
+  port: 8080
+  contextPath: api-caed
 
 eureka:
   client:
