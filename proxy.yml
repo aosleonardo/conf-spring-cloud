@@ -3,9 +3,13 @@ spring:
     name: proxy
 server:
   port: 8080
+  contextPath: /caed
+
 eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
   instance:
     preferIpAddress: true
+
+
